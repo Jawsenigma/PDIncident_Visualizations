@@ -63,12 +63,12 @@ This project provides an interactive dashboard for visualizing incident reports 
 
 2. The application will launch in your default browser, allowing you to:
 
-- Upload incident data from multiple URLs or import several PDFs at once.
-- Visualize incidents in various ways, including:
-- Clustering of incident records.
-- Analysis of different incident types.
-- Time series graphs for tracking incidents over time.
-- Location-based incident reports to identify geographic patterns.
+   - Upload incident data from multiple URLs or import several PDFs at once.
+   - Visualize incidents in various ways, including:
+   - Clustering of incident records.
+   - Analysis of different incident types.
+   - Time series graphs for tracking incidents over time.
+   - Location-based incident reports to identify geographic patterns.
 
 
 ## Data Source
