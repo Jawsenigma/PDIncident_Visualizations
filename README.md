@@ -80,7 +80,8 @@ The cluster_with_evaluation function clusters incident data, evaluates the clust
 
 ## Watch the visualization in action:
 
-   <video src='https://www.youtube.com/watch?v=fDZCZ9UaDdg' width=180/>
+[![Watch the video](https://img.youtube.com/vi/fDZCZ9UaDdg/0.jpg)](https://www.youtube.com/watch?v=fDZCZ9UaDdg)
+
 
 ## Data Source
 
