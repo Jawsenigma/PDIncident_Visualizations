@@ -82,6 +82,9 @@ The cluster_with_evaluation function clusters incident data, evaluates the clust
 
 [![Watch the video](https://img.youtube.com/vi/fDZCZ9UaDdg/0.jpg)](https://www.youtube.com/watch?v=fDZCZ9UaDdg)
 
+Alternatively, you can watch the video directly on [YouTube here](https://www.youtube.com/watch?v=fDZCZ9UaDdg).
+
+
 
 ## Data Source
 
