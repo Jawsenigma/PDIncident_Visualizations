@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project provides an interactive dashboard for visualizing incident reports from the Norman Police Department (NormanPD). The dashboard allows users to upload incident data from a PDF, process it, and visualize it in different forms, including time-based clustering, comparison of incident types, and geographic mapping of incidents.
+This project provides an interactive dashboard for visualizing incident reports from the Norman Police Department (NormanPD). The dashboard allows users to upload incident data from a PDF, process it, and visualize it in different forms, including location-time-incident type clustering, comparison of incident types, time series graph and geographic mapping of incidents.
 
 ## Features
 
@@ -14,7 +14,8 @@ This project provides an interactive dashboard for visualizing incident reports 
 - **Benefit**: Provides a simple and efficient way to digitize and manage incident data.
 
 ### Incident Clustering: 
-   The cluster_with_evaluation function clusters incident data, evaluates the clustering quality, and visualizes the results.
+
+The cluster_with_evaluation function clusters incident data, evaluates the clustering quality, and visualizes the results.
 
 - **Data Processing**: Combines location, nature, and time_numeric columns into a single text field for clustering.
 - **Text Vectorization**: Uses TfidfVectorizer to convert the combined text data into a sparse matrix of TF-IDF features.
