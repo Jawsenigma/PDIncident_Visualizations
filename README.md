@@ -8,10 +8,10 @@ This project provides an interactive dashboard for visualizing incident reports 
 
 ## Features
 
-### **Data Upload**: 
-      Users can upload incident data from a PDF by entering a URL to a hosted PDF. Users can enter multiple URLs in the text box in a comma-separated format or upload multiple PDFs for visualization. The data is then extracted and stored in a local SQLite database for further analysis.
-### **Incident Clustering**: 
-      The cluster_with_evaluation function clusters incident data, evaluates the clustering quality, and visualizes the results.
+### Data Upload: 
+   Users can upload incident data from a PDF by entering a URL to a hosted PDF. Users can enter multiple URLs in the text box in a comma-separated format or upload multiple PDFs for visualization. The data is then extracted and stored in a local SQLite database for further analysis.
+### Incident Clustering: 
+   The cluster_with_evaluation function clusters incident data, evaluates the clustering quality, and visualizes the results.
 
 - *Data Processing*: Combines location, nature, and time_numeric columns into a single text field for clustering.
 - *Text Vectorization*: Uses TfidfVectorizer to convert the combined text data into a sparse matrix of TF-IDF features.
