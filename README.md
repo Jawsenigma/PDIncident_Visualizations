@@ -24,8 +24,11 @@ This project provides an interactive dashboard for visualizing incident reports 
 - *Cluster Analysis*: Identifies the top 10 terms for each cluster to interpret cluster characteristics.  
 - *Visualization*: Uses PCA to reduce the data to 2D and creates a scatter plot, with clusters colored differently for easy analysis.
 
-- **Incident Types Comparison**: A bar graph displays the comparison of different incident types, helping to visualize the distribution of incidents.
-- **Location Mapping**: Incidents are geocoded and visualized on an interactive map centered on Oklahoma. The map shows the location of each incident using geocoded coordinates derived from street names.
+### Incident Types Comparison: 
+A bar graph displays the comparison of different incident types, helping to visualize the distribution of incidents.
+
+### Location Mapping: 
+Incidents are geocoded and visualized on an interactive map centered on Oklahoma. The map shows the location of each incident using geocoded coordinates derived from street names.
 
 ## Technologies Used
 
