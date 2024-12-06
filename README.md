@@ -11,17 +11,16 @@ This project provides an interactive dashboard for visualizing incident reports 
 - **Data Upload**: Users can upload incident data from a PDF by entering a URL to a hosted PDF. Users can enter multiple URLs in the text box in a comma-separated format or upload multiple PDFs for visualization. The data is then extracted and stored in a local SQLite database for further analysis.
 - **Incident Clustering**: The cluster_with_evaluation function clusters incident data, evaluates the clustering quality, and visualizes the results.
 
-- Function Overview
-*Data Processing*: Combines location, nature, and time_numeric columns into a single text field for clustering.
-*Text Vectorization*: Uses TfidfVectorizer to convert the combined text data into a sparse matrix of TF-IDF features.
-*Dimensionality Reduction*: Applies TruncatedSVD followed by normalization to reduce the feature space to 100 components.
-*Clustering*: Performs K-Means clustering (true_k clusters) on the reduced data.
-*Evaluation*: Calculates clustering metrics:
-*Homogeneity*: Measures class purity within clusters.
-*Completeness*: Ensures all instances of a class belong to the same cluster.
-*Silhouette Score*: Assesses cluster cohesion and separation.
-*Cluster Analysis*: Identifies the top 10 terms for each cluster to interpret cluster characteristics.
-*Visualization*: Uses PCA to reduce the data to 2D and creates a scatter plot, with clusters colored differently for easy analysis.
+- *Data Processing*: Combines location, nature, and time_numeric columns into a single text field for clustering.
+- *Text Vectorization*: Uses TfidfVectorizer to convert the combined text data into a sparse matrix of TF-IDF features.
+- *Dimensionality Reduction*: Applies TruncatedSVD followed by normalization to reduce the feature space to 100 components.
+- *Clustering*: Performs K-Means clustering (true_k clusters) on the reduced data.
+- *Evaluation*: Calculates clustering metrics:
+- *Homogeneity*: Measures class purity within clusters.
+- *Completeness*: Ensures all instances of a class belong to the same cluster.
+- *Silhouette Score*: Assesses cluster cohesion and separation.
+- *Cluster Analysis*: Identifies the top 10 terms for each cluster to interpret cluster characteristics.
+- *Visualization*: Uses PCA to reduce the data to 2D and creates a scatter plot, with clusters colored differently for easy analysis.
 
 - **Incident Types Comparison**: A bar graph displays the comparison of different incident types, helping to visualize the distribution of incidents.
 - **Location Mapping**: Incidents are geocoded and visualized on an interactive map centered on Oklahoma. The map shows the location of each incident using geocoded coordinates derived from street names.
