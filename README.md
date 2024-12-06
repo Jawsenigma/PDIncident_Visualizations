@@ -33,6 +33,12 @@ The cluster_with_evaluation function clusters incident data, evaluates the clust
 - **Visualization**: Highlights the distribution and dominance of specific incident types.
 - **Use Case**: Understand prevalent issues and prioritize responses.
 
+### Time Series Line Chart
+
+- **Functionality**: Converts the time column to datetime, extracts the hour, and groups incidents by hour to count their frequency.
+- **Visualization**: Generates a line graph showing incident counts by hour, with markers and distinct colors.
+- **Use Case**: To analyze and visualize incident frequency across different hours of the day.
+
 ### Geographical Map
 - **Functionality**: Geocodes incident locations and plots them on a map centered on Oklahoma.
 - **Visualization**: Interactive map shows geographic patterns and clustering of incidents.
