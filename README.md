@@ -13,27 +13,18 @@ This project provides an interactive dashboard for visualizing incident reports 
 
 ### Function Overview
 *Data Processing*: Combines location, nature, and time_numeric columns into a single text field for clustering.
-
 *Text Vectorization*: Uses TfidfVectorizer to convert the combined text data into a sparse matrix of TF-IDF features.
-
 *Dimensionality Reduction*: Applies TruncatedSVD followed by normalization to reduce the feature space to 100 components.
-
 *Clustering*: Performs K-Means clustering (true_k clusters) on the reduced data.
-
 *Evaluation*: Calculates clustering metrics:
-
 *Homogeneity*: Measures class purity within clusters.
 *Completeness*: Ensures all instances of a class belong to the same cluster.
 *Silhouette Score*: Assesses cluster cohesion and separation.
 *Cluster Analysis*: Identifies the top 10 terms for each cluster to interpret cluster characteristics.
-
 *Visualization*: Uses PCA to reduce the data to 2D and creates a scatter plot, with clusters colored differently for easy analysis.
-
-
 
 - **Incident Types Comparison**: A bar graph displays the comparison of different incident types, helping to visualize the distribution of incidents.
 - **Location Mapping**: Incidents are geocoded and visualized on an interactive map centered on Oklahoma. The map shows the location of each incident using geocoded coordinates derived from street names.
-- **Textual Clustering and Visualization**: Uses natural language processing to analyze and group incident descriptions into clusters for better understanding of trends and similarities.
 
 ## Technologies Used
 
@@ -49,32 +40,7 @@ This project provides an interactive dashboard for visualizing incident reports 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/NormanPD-Visualizations.git
-   ```
-
-2. Navigate into the project directory:
-   ```bash
-   cd NormanPD-Visualizations
-   ```
-
-3. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   ```
-
-4. Activate the virtual environment:
-   - On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-
-5. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Jawsenigma/cis6930fa24-project3.git
    ```
 
 ## Usage
