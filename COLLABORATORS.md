@@ -1,0 +1,6 @@
+SQLite3 Database | https://docs.python.org/3.12/library/sqlite3.html | Used SQLite3 to connect to and query a local database (normanpd.db) for incident reports, and retrieve data for further processing and visualization.
+Map Visualization | https://plotly.com/python/ | Used Plotly to generate interactive scatter plots and map visualizations to represent incident data based on time and location.
+KMeans Clustering | https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html | Applied KMeans clustering to group incidents based on time, allowing for better analysis and visualization of incident patterns.
+Geocoding with Geopy | https://geopy.readthedocs.io/ | Used Geopy's Nominatim geocoder to convert street addresses into geographic coordinates (latitude and longitude) to map incident locations.
+Mapbox Map Rendering | https://plotly.com/python/mapbox/ | Leveraged Plotly’s mapbox integration to render incident locations on an interactive map, focusing on geographic visualizations.
+Streamlit UI | https://docs.streamlit.io/ | Used Streamlit to build the app interface, allowing users to upload PDFs, display visualizations, and interact with incident data in real time.

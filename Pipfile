@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+regex = "*"
+pytest = "*"
+pypdf = "*"
+pandas = "*"
+tabula-py = "*"
+requests = "*"
+pypdf2 = "*"
+pdfplumber = "*"
+flask = "*"
+plotly = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+geopy = "*"
+foliun = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
