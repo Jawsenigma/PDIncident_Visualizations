@@ -78,6 +78,10 @@ The cluster_with_evaluation function clusters incident data, evaluates the clust
    - Location-based incident reports to identify geographic patterns.
 
 
+## Watch the visualization in action:
+
+   <video src='https://www.youtube.com/watch?v=fDZCZ9UaDdg' width=180/>
+
 ## Data Source
 
 The incident data is expected to be in PDF format, containing reports with details such as incident type, location, and time. These reports are processed and stored in a local SQLite database.
