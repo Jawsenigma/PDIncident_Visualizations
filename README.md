@@ -1,4 +1,4 @@
-# NormanPD Incident Visualizations
+# PD Incident Visualizations
 
 **Author**: Tanmay Saxena
 
