@@ -58,7 +58,7 @@ The cluster_with_evaluation function clusters incident data, evaluates the clust
 
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/Jawsenigma/PDIncident_Visualizations.git)
+   git clone https://github.com/Jawsenigma/PDIncident_Visualizations.git
    ```
 
 ## Usage
